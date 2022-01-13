@@ -24,7 +24,52 @@
 hr{
     border: 1px solid #D1D1D1;
 }
-
+ /* header style  */
+ .nav-section{
+     display: flex;
+     background-color: #562EFF;
+     height: 95px;
+ }
+ .navbar{
+     width: 23%;
+ }
+ .top-icon {
+	display: flex;
+	margin-top: 26px;
+	align-items: center;
+	justify-content: end;
+}
+ .top-icon img{
+     width: 42px;
+     height: 51px;
+ }
+ .top-icon span{
+     color: #fff;
+ }
+ .idea{
+     padding-left: 15px;
+ }
+ .menu{
+     width: 50%;
+     margin-top: 35px;
+ }
+ .menu ul{
+     text-align: right;
+ }
+ .menu ul li{
+     display: inline-block;
+ }
+ .menu ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+     padding-right: 36px;
+ }
+ .profile{
+     width: 20%;
+     margin-top: 23px;
+ }
+ 
 
 /* top player */
 .top-players{
@@ -84,6 +129,9 @@ hr{
  }
 
   /* Course style start  */
+  .lates{
+      margin-top: 18px;
+  }
   .courses{
       display: flex;
   }
